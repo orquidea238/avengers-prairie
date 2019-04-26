@@ -2,4 +2,222 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Anton, 'Courier New', Courier, monospace
 }
+
+.entete{
+    width: 100%;
+    background-color: #fff;
+    display: inline-flex;
+    position: fixed;
+    z-index: 900;
+    align-items: center;
+
+}
+.entete .logo img{
+    width: 100px;
+    height: 30px;
+    
+}
+
+.logo{
+   width: 70%; 
+   padding: 5px;
+   cursor: pointer;
+}
+
+nav{
+    font-size: 16px;
+    padding: 5px;
+    background-color: #fff;
+    width: 30%;
+}
+
+nav ul{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #13151f;
+}
+
+nav ul li a:hover{  
+    background-color: red;
+}
+/*--------------- Section Header ------------------*/
+
+.header2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #13151f;
+    padding-top: 65px;
+}
+
+.header2 .art1{
+    height: 500px;
+    
+}
+
+.header2 .art1 h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(150, 5, 5);
+    text-align: center;
+    font-family: Anton;
+    font-size: 4rem;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.header2 .art1 p{
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    padding-bottom: 5px;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.header2 .art1 img{
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+
+/*--------------- Section Gallery ------------------*/
+
+
+.gallery{
+    width: 100%;
+    background-color: #13151f;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.gallery .art2{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.gallery .art2 h1{
+    border-top: 2px solid #fff;
+    color: #fff;
+    font-size: 2rem;
+    padding: 40px;
+    font-weight: 300;
+}
+
+.gallery .art2 .photos1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+       
+}
+
+.gallery .art2 .photos1 .card{
+    width: 90%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.gallery .art2 .photos1 .card .cadre{
+    cursor: pointer;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.gallery .art2 .photos1 .card .cadre h3{
+    color: red;
+    text-align: center;
+    font-weight: 300;
+}
+
+
+.gallery .art2 .photos1 .card .cadre img{
+    width: 100%;
+    height: 250px;
+    border: 2px solid #fff;
+}
+
+.gallery .art2 .photos1 .card .cadre img:hover{
+    opacity: 0.6;
+}
+
+.info{
+    width: 100%;
+    background-color: #fff;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.info .films{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.info .video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+
+}
+
+footer p{
+    background-color: #13151f;
+    opacity: 0.8;
+    text-align: center;
+}
+
+footer p{
+    color: #fff;
+    font-size: 1rem;
+    font-family: Arial, 'Courier New', Courier, monospace;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+footer .pied {
+    color: #fff;
+    background-color: #13151f;
+    text-align: center;
+    font-size: 0.7rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
